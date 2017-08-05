@@ -11,7 +11,7 @@ public class MyResource {
 	@GET
 	  @Produces(MediaType.TEXT_PLAIN)
 	  public String sayPlainTextHello() {
-	    return "Hello Jersey";
+	    return "Hello Jersey demo";
 	  }
 
 	  // This method is called if XML is request
